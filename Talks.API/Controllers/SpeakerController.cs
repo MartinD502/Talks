@@ -28,7 +28,7 @@ namespace Talks.API.Controllers
         //CREATED BY MD 19/08/2025 - Can reach the endpoint through the following, crude approach... http://localhost:5121/speaker/Run
         //#1 - .NET 8 / C# > V8
         //#2 - I stopped short of integration testing (in-memory database) as we have persistance, so this could have been done and would normally have been.       
-        //#3 - I used XUnit which is my test framework of choice, generally.
+        //#3 - I used XUnit/Moq which is are test frameworks of choice, generally.
         //#4 - I utilised EF Core code-first approach.
 
         #region Speaker
